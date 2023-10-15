@@ -1,3 +1,4 @@
+import {metadata} from "../../(shared)/heading/Heading"
 
 const Event =()=>{
      return (
@@ -8,3 +9,7 @@ const Event =()=>{
 }
 
 export default Event;
+
+metadata.title= 'Event'
+
+export {metadata};

@@ -1,3 +1,4 @@
+import {metadata} from "../../(shared)/heading/Heading"
 
 const Account =()=>{
     return (
@@ -8,3 +9,6 @@ const Account =()=>{
 }
 
 export default Account;
+metadata.title= 'Account'
+
+export {metadata};

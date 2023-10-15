@@ -1,12 +1,12 @@
 
 import Login from './auth/login/page'
-//WORK ON THE README 
-//CONFIRM IF THAT IS A SELECT ON THE NAV
+
 //WILL THE LOGIN PAGE BE PROTECTED 
 //THE EYES ON INPUT PASSWORD
-//PUT COMMENTS WERE NECESSRY
 //MAKE IT RESPONSIVE
 
+// rendering the login page first
+//it is the first page the user encounters
 export default function Home() {
   return (
     <main className="">

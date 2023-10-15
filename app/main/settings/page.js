@@ -1,3 +1,4 @@
+import {metadata} from "../../(shared)/heading/Heading"
 
 
 const Setting =()=>{
@@ -9,3 +10,7 @@ const Setting =()=>{
 }
 
 export default Setting;
+
+metadata.title= 'Settings'
+
+export {metadata};

@@ -1,3 +1,4 @@
+import {metadata} from "../../(shared)/heading/Heading"
 const Pipeline =()=>{
     return (
        <section className='  flex justify-center items-center md:items-start h-screen p-8'>
@@ -7,3 +8,7 @@ const Pipeline =()=>{
 }
 
 export default Pipeline;
+
+metadata.title= 'Pipeline'
+
+export {metadata};

@@ -1,3 +1,4 @@
+           import {metadata} from "../../(shared)/heading/Heading"
 
 
 const Source =()=>{
@@ -9,3 +10,7 @@ const Source =()=>{
 }
 
 export default Source;
+
+metadata.title= 'Source'
+
+export {metadata};

@@ -12,14 +12,14 @@ const TableRow = ({title,styling}) => {
         setPop(prev=>!prev)
   }
   return (
-    <tr className=" h-[36px]  border-b-lightGray relative">
-          <td className="font-medium text-[12px] leading-[20px] pl-6">
+    <tr className=" h-[36px]  border-b-lightGray border-b-[1px] relative">
+          <td className="font-medium lg:text-[12px] text-[10px] leading-[20px] pl-6">
             Gotham Asylum
           </td>
-          <td className="font-medium text-[12px] leading-[20px]">
+          <td className="font-medium lg:text-[12px] text-[10px] leading-[20px]">
             10th August, 2023
           </td>
-          <td className="font-medium text-[12px] leading-[20px]  flex justify-between  items-center pr-10 h-[36px]">
+          <td className="font-medium lg:text-[12px] text-[10px] leading-[20px]  flex justify-between  items-center pr-2 lg:pr-10 h-[36px]">
             <Button styling={styling} title={title} />
             <svg onClick={handleClick} className=" hover:cursor-pointer" width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1.99999 8.83333C2.46023 8.83333 2.83332 8.46024 2.83332 8C2.83332 7.53976 2.46023 7.16667 1.99999 7.16667C1.53975 7.16667 1.16666 7.53976 1.16666 8C1.16666 8.46024 1.53975 8.83333 1.99999 8.83333Z" stroke="#828282" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

@@ -1,10 +1,11 @@
 import TableRow from "@/app/(shared)/tableRow/tableRow"
 import Button from "../../(shared)/button/Button"
 import dataArr from "@/app/(data)/Data"
-import Popup from "@/app/(shared)/popup/Popup"
+import {metadata} from "../../(shared)/heading/Heading"
 
 const Transformation = () => {
 
+  //mapping over the data to return each table row
   const mappedArr=dataArr.map(data=>(<TableRow key={data.id} title={data.text} styling={data.styling} />))
 
   return (
@@ -23,7 +24,7 @@ const Transformation = () => {
 
             </div>
         </section>
-        <section className=" flex justify-between p-8">
+        <section className=" flex justify-between p-8 flex-col lg:flex-row">
             <h2 className=" font-semibold text-[20px] leading-[28px] text-dark">Transformation</h2>
             <div className=' space-x-2'>
               <Button title='Create a new Transformation' styling='w-[224px] text-sm text-white font-bold h-[36px] rounded-[8px] bg-brandColor' />
@@ -31,15 +32,15 @@ const Transformation = () => {
             </div>
         </section>
         <section className=" flex px-8">
-          <input type="search" id="search" name="search" placeholder="Search transformation" className=" w-[320px] h-[36px]  border-[1px] rounded-md px-4 ml-auto" />
+          <input type="search" id="search" name="search" placeholder="Search transformation" className=" w-[320px] h-[36px]  border-[1px] rounded-md px-4 lg:ml-auto" />
         </section>
-        <section className="p-8 flex-1 border-[1px] rounded-[8px] border-[#E6E7EC] flex flex-col mx-8 mt-8">
+        <section className="lg:p-8 flex-1 border-[1px] rounded-[8px] p-2 border-[#E6E7EC] flex flex-col mx-8 mt-8">
         <table className=" w-full ">
         <thead>
           <tr className=" h-[36px]">
-            <th className=" font-medium text-[12px] leading-[20px] text-textGray text-left pl-6">Name</th>
-            <th className=" font-medium text-[12px] leading-[20px] text-textGray text-left">Creation Date</th>
-            <th className=" font-medium text-[12px] leading-[20px] text-textGray text-left pr-6">Status</th>
+            <th className=" font-medium lg:text-[12px] text-[10px] leading-[20px] text-textGray text-left pl-6">Name</th>
+            <th className=" font-medium lg:text-[12px] text-[10px] leading-[20px] text-textGray text-left">Creation Date</th>
+            <th className=" font-medium lg:text-[12px] text-[10px] leading-[20px] text-textGray text-left pr-6">Status</th>
         </tr>
         </thead>
         <tbody>
@@ -52,10 +53,14 @@ const Transformation = () => {
           <div className= "hover:cursor-pointer w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] text-textGray flex justify-center items-center bg-[#F5F5F5]">15</div>
         </div>
         </section>
-        {/* <Popup /> */}
         
     </section>
   )
 }
 
 export default Transformation
+
+metadata.title= 'Transformation'
+
+export {metadata};
+
