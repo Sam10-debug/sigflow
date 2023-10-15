@@ -1,4 +1,4 @@
-import TableRow from "@/app/(shared)/tableRow/tableRow"
+import TableRow from "@/app/(shared)/tableRow/TableRow"
 import Button from "../../(shared)/button/Button"
 import dataArr from "@/app/(data)/Data"
 import {metadata} from "../../(shared)/heading/Heading"
