@@ -1,3 +1,4 @@
+
 import TableRow from "@/app/(shared)/tableRow/TableRow"
 import Button from "../../(shared)/button/Button"
 import dataArr from "@/app/(data)/Data"
@@ -12,6 +13,17 @@ const Transformation = () => {
   
     <section className=" flex flex-col h-screen">
         <section className=" flex p-8 border-b-[2px] border-[#E6E7EC]">
+        <div   className='hamburger container  w-fit  flex lg:hidden justify-between items-center'>
+          <svg width="21" className=" " height="2" viewBox="0 0 21 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.38647 1H19.3865" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          <svg width="21" height="2" viewBox="0 0 21 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.38647 1H19.3865" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          <svg width="21" height="2" viewBox="0 0 21 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.38647 1H19.3865" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+			</svg>
+		</div>
             <div className=" ml-auto flex gap-2 ">
             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="38" height="38" rx="4" transform="matrix(-1 0 0 1 38 0)" fill="#32D583"/>
