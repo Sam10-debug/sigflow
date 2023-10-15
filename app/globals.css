@@ -1,6 +1,13 @@
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  font-family: 'Manrope', sans-serif;
+}
 
 header{
   height: 100vh;
@@ -8,4 +15,9 @@ header{
   top: 0;
   left: 0;
   bottom: 0;
+}
+#search{
+  background-image:url('/icons/search-sm.svg');
+  background-repeat:no-repeat;
+  background-position: center right;
 }

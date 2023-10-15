@@ -31,7 +31,7 @@ const Transformation = () => {
             </div>
         </section>
         <section className=" flex px-8">
-          <input type="search" name="search" placeholder="Search transformation" className="w-[320px] h-[36px]  border-[1px] rounded-md px-2 ml-auto" />
+          <input type="search" id="search" name="search" placeholder="Search transformation" className=" w-[320px] h-[36px]  border-[1px] rounded-md px-4 ml-auto" />
         </section>
         <section className="p-8 flex-1 border-[1px] rounded-[8px] border-[#E6E7EC] flex flex-col mx-8 mt-8">
         <table className=" w-full ">
@@ -47,9 +47,9 @@ const Transformation = () => {
         </tbody>
         </table>
         <div className=" flex gap-2 mt-auto">
-          <div className="w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] bg-brandColor text-white flex justify-center items-center">5</div>
-          <div className="w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] text-textGray flex justify-center items-center bg-[#F5F5F5]">10</div>
-          <div className="w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] text-textGray flex justify-center items-center bg-[#F5F5F5]">15</div>
+          <div className="hover:cursor-pointer w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] bg-brandColor text-white flex justify-center items-center">5</div>
+          <div className="hover:cursor-pointer w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] text-textGray flex justify-center items-center bg-[#F5F5F5]">10</div>
+          <div className= "hover:cursor-pointer w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] text-textGray flex justify-center items-center bg-[#F5F5F5]">15</div>
         </div>
         </section>
         {/* <Popup /> */}
