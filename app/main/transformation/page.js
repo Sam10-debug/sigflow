@@ -9,7 +9,7 @@ const Transformation = () => {
 
   return (
   
-    <section className="">
+    <section className=" flex flex-col h-screen">
         <section className=" flex p-8 border-b-[2px] border-[#E6E7EC]">
             <div className=" ml-auto flex gap-2 ">
             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,8 +33,8 @@ const Transformation = () => {
         <section className=" flex px-8">
           <input type="search" name="search" placeholder="Search transformation" className="w-[320px] h-[36px]  border-[1px] rounded-md px-2 ml-auto" />
         </section>
-        <section className="p-8">
-        <table className=" w-full  border-[#E6E7EC] rounded-[8px] border-2"  border="1">
+        <section className="p-8 flex-1 border-[1px] rounded-[8px] border-[#E6E7EC] flex flex-col mx-8 mt-8">
+        <table className=" w-full ">
         <thead>
           <tr className=" h-[36px]">
             <th className=" font-medium text-[12px] leading-[20px] text-textGray text-left pl-6">Name</th>
@@ -46,9 +46,14 @@ const Transformation = () => {
         {mappedArr}
         </tbody>
         </table>
+        <div className=" flex gap-2 mt-auto">
+          <div className="w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] bg-brandColor text-white flex justify-center items-center">5</div>
+          <div className="w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] text-textGray flex justify-center items-center bg-[#F5F5F5]">10</div>
+          <div className="w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] text-textGray flex justify-center items-center bg-[#F5F5F5]">15</div>
+        </div>
         </section>
-        <Popup />
-        <div></div>
+        {/* <Popup /> */}
+        
     </section>
   )
 }
