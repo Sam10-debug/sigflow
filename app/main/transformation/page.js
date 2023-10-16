@@ -47,7 +47,7 @@ const Transformation = () => {
         {mappedArr}
         </tbody>
         </table>
-        <div className=" flex gap-2 mt-auto">
+        <div className=" flex gap-2 mt-auto py-4 md:py-0">
           <div className="hover:cursor-pointer w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] bg-brandColor text-white flex justify-center items-center">5</div>
           <div className="hover:cursor-pointer w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] text-textGray flex justify-center items-center bg-[#F5F5F5]">10</div>
           <div className= "hover:cursor-pointer w-[36px] h-[30px] text-[12px] leading-[24px] rounded-[4.8px] text-textGray flex justify-center items-center bg-[#F5F5F5]">15</div>
