@@ -1,5 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -25,31 +24,27 @@ header{
   background-color:whitesmoke;
 }
 
-.show{
-	transform: rotate(45deg);
-	position: relative;
-	top:5px;
-	left: 0px;
-}
-.showw{
-	transform: rotate(-45deg);
-	position: relative;
-	bottom: 8px;
-}
-.remove{
-	display: none;
-}
-.showNav{
-	transform: translateX(0%);
-	transition: all ease-in-out 1s;
-}
-.hamburger{
-  display: flex;
-  flex-direction: column;
-  height: 15px;
-  justify-content: space-between;
-  top: 15px;
-  left: 4px;
-  position: fixed;
-  z-index: 999;
+
+@media screen and (max-width:768px){
+  header{
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    right: 0;
+    width: 100vw;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobileNav{
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    transform: translateX(100%);
+  }
+  .showNav{
+    transform: translateX(0%);
+  }
+  
 }

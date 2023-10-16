@@ -4,9 +4,9 @@ import Nav from '../(Navigation)/nav/Nav'
 
 const Layout = ({children}) => {
   return (
-    <div className='flex w-full h-full'>
+    <div className='flex flex-col md:flex-row w-full h-full'>
         <Nav />
-        <div className='lg:w-[85%] ml-auto'>
+        <div className='md:w-[85%] ml-auto'>
         {children}
         </div>
     </div>

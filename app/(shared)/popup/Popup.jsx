@@ -2,7 +2,7 @@
 
 const Popup = () => {
   return (
-    <td className="w-[179px] flex flex-col justify-around pop  px-4 h-[97px] rounded-[4px] shadow-2xl absolute z-[999]">
+    <td className="w-[179px] flex flex-col justify-around pop right-10  px-4 h-[97px] rounded-[4px] shadow-2xl absolute z-[999]">
         <div className=" flex gap-2 items-center  ">
         <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1.8109 6.88631C1.73713 6.7695 1.70025 6.7111 1.6796 6.62102C1.66409 6.55335 1.66409 6.44665 1.6796 6.37898C1.70025 6.2889 1.73713 6.2305 1.8109 6.1137C2.42049 5.14846 4.23501 2.70833 7.00022 2.70833C9.76543 2.70833 11.5799 5.14846 12.1895 6.1137C12.2633 6.2305 12.3002 6.2889 12.3208 6.37898C12.3363 6.44665 12.3363 6.55335 12.3208 6.62102C12.3002 6.7111 12.2633 6.7695 12.1895 6.88631C11.5799 7.85155 9.76543 10.2917 7.00022 10.2917C4.23501 10.2917 2.4205 7.85155 1.8109 6.88631Z" stroke="#828282" strokeLinecap="round" stroke-linejoin="round"/>

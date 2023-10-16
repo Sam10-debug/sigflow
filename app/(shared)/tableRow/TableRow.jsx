@@ -12,7 +12,7 @@ const TableRow = ({title,styling}) => {
         setPop(prev=>!prev)
   }
   return (
-    <tr className=" h-[36px]  border-b-lightGray border-b-[1px] relative">
+    <tr className=" h-[36px]  border-b-lightGray border-b-[1px] ">
           <td className="font-medium lg:text-[12px] text-[10px] leading-[20px] pl-6">
             Gotham Asylum
           </td>

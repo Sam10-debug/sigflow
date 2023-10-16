@@ -1,4 +1,3 @@
-
 import TableRow from "@/app/(shared)/tableRow/TableRow"
 import Button from "../../(shared)/button/Button"
 import dataArr from "@/app/(data)/Data"
@@ -11,19 +10,8 @@ const Transformation = () => {
 
   return (
   
-    <section className=" flex flex-col h-screen">
+    <section className=" flex flex-col mt-12 md:mt-0 md:h-screen">
         <section className=" flex p-8 border-b-[2px] border-[#E6E7EC]">
-        <div   className='hamburger container  w-fit  flex lg:hidden justify-between items-center'>
-          <svg width="21" className=" " height="2" viewBox="0 0 21 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.38647 1H19.3865" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-          <svg width="21" height="2" viewBox="0 0 21 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.38647 1H19.3865" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-          <svg width="21" height="2" viewBox="0 0 21 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.38647 1H19.3865" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-			</svg>
-		</div>
             <div className=" ml-auto flex gap-2 ">
             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="38" height="38" rx="4" transform="matrix(-1 0 0 1 38 0)" fill="#32D583"/>
@@ -36,7 +24,7 @@ const Transformation = () => {
 
             </div>
         </section>
-        <section className=" flex justify-between p-8 flex-col lg:flex-row">
+        <section className=" flex justify-between p-8 flex-col md:flex-row">
             <h2 className=" font-semibold text-[20px] leading-[28px] text-dark">Transformation</h2>
             <div className=' space-x-2'>
               <Button title='Create a new Transformation' styling='w-[224px] text-sm text-white font-bold h-[36px] rounded-[8px] bg-brandColor' />
@@ -44,15 +32,15 @@ const Transformation = () => {
             </div>
         </section>
         <section className=" flex px-8">
-          <input type="search" id="search" name="search" placeholder="Search transformation" className=" w-[320px] h-[36px]  border-[1px] rounded-md px-4 lg:ml-auto" />
+          <input type="search" id="search" name="search" placeholder="Search transformation" className=" w-[320px] h-[36px]  border-[1px] rounded-md px-4 md:ml-auto" />
         </section>
-        <section className="lg:p-8 flex-1 border-[1px] rounded-[8px] p-2 border-[#E6E7EC] flex flex-col mx-8 mt-8">
+        <section className="md:p-8 flex-1 border-[1px] rounded-[8px] p-2 border-[#E6E7EC] flex flex-col mx-8 mt-8">
         <table className=" w-full ">
         <thead>
           <tr className=" h-[36px]">
-            <th className=" font-medium lg:text-[12px] text-[10px] leading-[20px] text-textGray text-left pl-6">Name</th>
-            <th className=" font-medium lg:text-[12px] text-[10px] leading-[20px] text-textGray text-left">Creation Date</th>
-            <th className=" font-medium lg:text-[12px] text-[10px] leading-[20px] text-textGray text-left pr-6">Status</th>
+            <th className=" font-medium md:text-[12px] text-[10px] leading-[20px] text-textGray text-left pl-6">Name</th>
+            <th className=" font-medium md:text-[12px] text-[10px] leading-[20px] text-textGray text-left">Creation Date</th>
+            <th className=" font-medium md:text-[12px] text-[10px] leading-[20px] text-textGray text-left pr-6">Status</th>
         </tr>
         </thead>
         <tbody>
